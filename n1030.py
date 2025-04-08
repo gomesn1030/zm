@@ -1,3 +1,5 @@
+pip install json folium streamlit_folium
+
 import streamlit as st
 import json
 import folium
