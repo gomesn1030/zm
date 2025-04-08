@@ -1,0 +1,846 @@
+{
+    "currentVersion": 11.1,
+    "cimVersion": "3.1.0",
+    "serviceDescription": "",
+    "mapName": "Zoneamentos das Cidades Vizinhas",
+    "description": "Zoneamento das cidades vizinhas de Joinville, contendo os limites municipais, perímetro urbano, vias e zoneamentos das cidades de Joinville, Araquari, Campo Alegre, Guaramirim, <font face='Avenir Next W01, Avenir Next W00, Avenir Next, Avenir, Helvetica Neue, sans-serif'><span style='font-size:16px;'>Schroeder e Jaraguá do Sul.<\/span><\/font><div><font face='Avenir Next W01, Avenir Next W00, Avenir Next, Avenir, Helvetica Neue, sans-serif'><span style='font-size:16px;'><br /><\/span><\/font><\/div><div><font face='Avenir Next W01, Avenir Next W00, Avenir Next, Avenir, Helvetica Neue, sans-serif'><span style='font-size:16px;'>O estudo foi realizado em Agosto de 2023 pela <\/span><\/font><span style='font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif;'>Secretaria de Pesquisa e Planejamento Urbano (SEPUR), Unidade de Pesquisa, Documentação e Georreferenciamento (UPD)<\/span><\/div><div><span style='font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif;'><br /><\/span><\/div><div><font face='Avenir Next W01, Avenir Next W00, Avenir Next, Avenir, Helvetica Neue, sans-serif'><span style='font-size:16px;'>Dados:<\/span><\/font><\/div><div><font face='Avenir Next W01, Avenir Next W00, Avenir Next, Avenir, Helvetica Neue, sans-serif'><span style='font-size:16px;'>Joinville - Lei Complementar N 470, de 09 de Janeiro de 2019 - Anexo III - Mapa de Uso e Ocupação do Solo Urbano de Joinville<\/span><\/font><span style='color:rgb(51, 51, 51); font-family:Calibri, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; text-align:justify;'>;<\/span><\/div><div><font face='Avenir Next W01, Avenir Next W00, Avenir Next, Avenir, Helvetica Neue, sans-serif'><span style='font-size:16px;'>Araquari - Lei Complementar N 323/2021;<\/span><\/font><\/div><div><font face='Avenir Next W01, Avenir Next W00, Avenir Next, Avenir, Helvetica Neue, sans-serif'><span style='font-size:16px;'>Campo Alegre: Plano Diretor Participativo, Mapa de Zoneamento de Campo Alegre Anexo - 03 (2018);<\/span><\/font><\/div><div><font face='Avenir Next W01, Avenir Next W00, Avenir Next, Avenir, Helvetica Neue, sans-serif'><span style='font-size:16px;'>Guaramirim: Anexo Lei 4224/2015 - Mapa de Zoneamento de Guaramirim Anexo IX (2015);<\/span><\/font><\/div><div><font face='Avenir Next W01, Avenir Next W00, Avenir Next, Avenir, Helvetica Neue, sans-serif'><span style='font-size:16px;'>São Francisco do Sul: Anexo da Lei 7663/1981 e Suas Alterações - Mapa de Zoneamento 07 (Setembro/2013);<\/span><\/font><\/div><div><font face='Avenir Next W01, Avenir Next W00, Avenir Next, Avenir, Helvetica Neue, sans-serif'><span style='font-size:16px;'>Schroeder - Mapa Plano Diretor - Macrozoneamento Rural e Urbano (Agosto/2016);<\/span><br /><\/font><div><font face='Avenir Next W01, Avenir Next W00, Avenir Next, Avenir, Helvetica Neue, sans-serif'><span style='font-size:16px;'><br /><\/span><\/font><\/div><div><br /><\/div><\/div>",
+    "copyrightText": "Secretaria de Pesquisa e Planejamento Urbano (SEPUR), Unidade de Pesquisa, Documentação e Georreferenciamento (UPD), realizado por Gabriel do Vale Almeida",
+    "supportsDynamicLayers": true,
+    "layers": [
+     {
+      "id": 35,
+      "name": "Cidades",
+      "parentLayerId": -1,
+      "defaultVisibility": true,
+      "subLayerIds": [
+       54,
+       50,
+       44,
+       0,
+       18,
+       62,
+       72,
+       103,
+       38
+      ],
+      "minScale": 0,
+      "maxScale": 0,
+      "type": "Group Layer",
+      "supportsDynamicLegends": false
+     },
+     {
+      "id": 54,
+      "name": "Joinville",
+      "parentLayerId": 35,
+      "defaultVisibility": true,
+      "subLayerIds": [
+       74,
+       75,
+       76,
+       77,
+       78,
+       79,
+       80
+      ],
+      "minScale": 0,
+      "maxScale": 0,
+      "type": "Group Layer",
+      "supportsDynamicLegends": false
+     },
+     {
+      "id": 74,
+      "name": "Vias Principais",
+      "parentLayerId": 54,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 0,
+      "maxScale": 50000,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPolyline",
+      "supportsDynamicLegends": true
+     },
+     {
+      "id": 75,
+      "name": "Logradouros",
+      "parentLayerId": 54,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 50000,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPolyline",
+      "supportsDynamicLegends": true
+     },
+     {
+      "id": 76,
+      "name": "Logradouros Rurais",
+      "parentLayerId": 54,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 50000,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPolyline",
+      "supportsDynamicLegends": true
+     },
+     {
+      "id": 77,
+      "name": "Áreas de Expansão Urbana",
+      "parentLayerId": 54,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 0,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPolygon",
+      "supportsDynamicLegends": true
+     },
+     {
+      "id": 78,
+      "name": "Zoneamento",
+      "parentLayerId": 54,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 0,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPolygon",
+      "supportsDynamicLegends": true
+     },
+     {
+      "id": 79,
+      "name": "Perímetro Urbano",
+      "parentLayerId": 54,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 100000,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPolygon",
+      "supportsDynamicLegends": true
+     },
+     {
+      "id": 80,
+      "name": "Limite Municipal",
+      "parentLayerId": 54,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 0,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPolygon",
+      "supportsDynamicLegends": true
+     },
+     {
+      "id": 50,
+      "name": "Araquari",
+      "parentLayerId": 35,
+      "defaultVisibility": true,
+      "subLayerIds": [
+       81,
+       82,
+       83,
+       84
+      ],
+      "minScale": 0,
+      "maxScale": 0,
+      "type": "Group Layer",
+      "supportsDynamicLegends": false
+     },
+     {
+      "id": 81,
+      "name": "Logradouros",
+      "parentLayerId": 50,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 50000,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPolyline",
+      "supportsDynamicLegends": true
+     },
+     {
+      "id": 82,
+      "name": "Zoneamento",
+      "parentLayerId": 50,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 0,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPolygon",
+      "supportsDynamicLegends": true
+     },
+     {
+      "id": 83,
+      "name": "Perímetro Urbano",
+      "parentLayerId": 50,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 100000,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPolyline",
+      "supportsDynamicLegends": true
+     },
+     {
+      "id": 84,
+      "name": "Limite Municipal",
+      "parentLayerId": 50,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 0,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPolygon",
+      "supportsDynamicLegends": true
+     },
+     {
+      "id": 44,
+      "name": "Campo Alegre",
+      "parentLayerId": 35,
+      "defaultVisibility": true,
+      "subLayerIds": [
+       85,
+       86,
+       87,
+       88,
+       89
+      ],
+      "minScale": 0,
+      "maxScale": 0,
+      "type": "Group Layer",
+      "supportsDynamicLegends": false
+     },
+     {
+      "id": 85,
+      "name": "Logradouros",
+      "parentLayerId": 44,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 50000,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPolyline",
+      "supportsDynamicLegends": true
+     },
+     {
+      "id": 86,
+      "name": "Zoneamento Urbano",
+      "parentLayerId": 44,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 0,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPolygon",
+      "supportsDynamicLegends": true
+     },
+     {
+      "id": 87,
+      "name": "Zoneamento Rural",
+      "parentLayerId": 44,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 0,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPolygon",
+      "supportsDynamicLegends": true
+     },
+     {
+      "id": 88,
+      "name": "Perímetro Urbano",
+      "parentLayerId": 44,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 100000,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPolyline",
+      "supportsDynamicLegends": true
+     },
+     {
+      "id": 89,
+      "name": "Limite Municipal",
+      "parentLayerId": 44,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 0,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPolygon",
+      "supportsDynamicLegends": true
+     },
+     {
+      "id": 0,
+      "name": "Garuva",
+      "parentLayerId": 35,
+      "defaultVisibility": true,
+      "subLayerIds": [
+       90,
+       91,
+       92
+      ],
+      "minScale": 0,
+      "maxScale": 0,
+      "type": "Group Layer",
+      "supportsDynamicLegends": false
+     },
+     {
+      "id": 90,
+      "name": "Logradouros",
+      "parentLayerId": 0,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 50000,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPolyline",
+      "supportsDynamicLegends": true
+     },
+     {
+      "id": 91,
+      "name": "Zoneamento",
+      "parentLayerId": 0,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 0,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPolygon",
+      "supportsDynamicLegends": true
+     },
+     {
+      "id": 92,
+      "name": "Limite Municipal",
+      "parentLayerId": 0,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 0,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPolygon",
+      "supportsDynamicLegends": true
+     },
+     {
+      "id": 18,
+      "name": "Guaramirim",
+      "parentLayerId": 35,
+      "defaultVisibility": true,
+      "subLayerIds": [
+       93,
+       94,
+       95,
+       96,
+       97
+      ],
+      "minScale": 0,
+      "maxScale": 0,
+      "type": "Group Layer",
+      "supportsDynamicLegends": false
+     },
+     {
+      "id": 93,
+      "name": "Logradouros",
+      "parentLayerId": 18,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 50000,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPolyline",
+      "supportsDynamicLegends": true
+     },
+     {
+      "id": 94,
+      "name": "Zoneamento",
+      "parentLayerId": 18,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 0,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPolygon",
+      "supportsDynamicLegends": true
+     },
+     {
+      "id": 95,
+      "name": "Macrozoneamento",
+      "parentLayerId": 18,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 0,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPolygon",
+      "supportsDynamicLegends": true
+     },
+     {
+      "id": 96,
+      "name": "Perímetro Urbano",
+      "parentLayerId": 18,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 100000,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPolyline",
+      "supportsDynamicLegends": true
+     },
+     {
+      "id": 97,
+      "name": "Limite Municipal",
+      "parentLayerId": 18,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 0,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPolygon",
+      "supportsDynamicLegends": true
+     },
+     {
+      "id": 62,
+      "name": "Jaraguá do Sul",
+      "parentLayerId": 35,
+      "defaultVisibility": true,
+      "subLayerIds": [
+       98,
+       99,
+       100,
+       101
+      ],
+      "minScale": 0,
+      "maxScale": 0,
+      "type": "Group Layer",
+      "supportsDynamicLegends": false
+     },
+     {
+      "id": 98,
+      "name": "Logradouros",
+      "parentLayerId": 62,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 50000,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPolyline",
+      "supportsDynamicLegends": true
+     },
+     {
+      "id": 99,
+      "name": "Zoneamento Urbano",
+      "parentLayerId": 62,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 0,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPolygon",
+      "supportsDynamicLegends": true
+     },
+     {
+      "id": 100,
+      "name": "Macrozoneamento",
+      "parentLayerId": 62,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 0,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPolygon",
+      "supportsDynamicLegends": true
+     },
+     {
+      "id": 101,
+      "name": "Limite Municipal",
+      "parentLayerId": 62,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 0,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPolygon",
+      "supportsDynamicLegends": true
+     },
+     {
+      "id": 72,
+      "name": "Itapoá",
+      "parentLayerId": 35,
+      "defaultVisibility": true,
+      "subLayerIds": [
+       110,
+       111,
+       112
+      ],
+      "minScale": 0,
+      "maxScale": 0,
+      "type": "Group Layer",
+      "supportsDynamicLegends": false
+     },
+     {
+      "id": 110,
+      "name": "Zoneamento",
+      "parentLayerId": 72,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 0,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPolygon",
+      "supportsDynamicLegends": true
+     },
+     {
+      "id": 111,
+      "name": "Perímetro Urbano",
+      "parentLayerId": 72,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 100000,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPolygon",
+      "supportsDynamicLegends": true
+     },
+     {
+      "id": 112,
+      "name": "Limite Municipal",
+      "parentLayerId": 72,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 0,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPolygon",
+      "supportsDynamicLegends": true
+     },
+     {
+      "id": 103,
+      "name": "São Francisco do Sul",
+      "parentLayerId": 35,
+      "defaultVisibility": true,
+      "subLayerIds": [
+       113,
+       114,
+       115,
+       116,
+       117,
+       102
+      ],
+      "minScale": 0,
+      "maxScale": 0,
+      "type": "Group Layer",
+      "supportsDynamicLegends": false
+     },
+     {
+      "id": 113,
+      "name": "Logradouros",
+      "parentLayerId": 103,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 0,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPolyline",
+      "supportsDynamicLegends": true
+     },
+     {
+      "id": 114,
+      "name": "Vias Principais",
+      "parentLayerId": 103,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 100000,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPolyline",
+      "supportsDynamicLegends": true
+     },
+     {
+      "id": 115,
+      "name": "Vias Secundárias",
+      "parentLayerId": 103,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 100000,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPolyline",
+      "supportsDynamicLegends": true
+     },
+     {
+      "id": 116,
+      "name": "Perímetro Urbano",
+      "parentLayerId": 103,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 100000,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPolyline",
+      "supportsDynamicLegends": true
+     },
+     {
+      "id": 117,
+      "name": "Zoneamento",
+      "parentLayerId": 103,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 0,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPolygon",
+      "supportsDynamicLegends": true
+     },
+     {
+      "id": 102,
+      "name": "Limite Municipal",
+      "parentLayerId": 103,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 0,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPolygon",
+      "supportsDynamicLegends": true
+     },
+     {
+      "id": 38,
+      "name": "Schroeder",
+      "parentLayerId": 35,
+      "defaultVisibility": true,
+      "subLayerIds": [
+       118,
+       119,
+       120,
+       121
+      ],
+      "minScale": 0,
+      "maxScale": 0,
+      "type": "Group Layer",
+      "supportsDynamicLegends": false
+     },
+     {
+      "id": 118,
+      "name": "Logradouros",
+      "parentLayerId": 38,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 50000,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPolyline",
+      "supportsDynamicLegends": true
+     },
+     {
+      "id": 119,
+      "name": "Zoneamento",
+      "parentLayerId": 38,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 0,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPolygon",
+      "supportsDynamicLegends": true
+     },
+     {
+      "id": 120,
+      "name": "Perímetro Urbano",
+      "parentLayerId": 38,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 100000,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPolygon",
+      "supportsDynamicLegends": true
+     },
+     {
+      "id": 121,
+      "name": "Limite Municipal",
+      "parentLayerId": 38,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 0,
+      "maxScale": 0,
+      "type": "Feature Layer",
+      "geometryType": "esriGeometryPolygon",
+      "supportsDynamicLegends": true
+     }
+    ],
+    "tables": [],
+    "spatialReference": {
+     "wkid": 102100,
+     "latestWkid": 3857,
+     "xyTolerance": 0.001,
+     "zTolerance": 0.001,
+     "mTolerance": 0.001,
+     "falseX": -20037700,
+     "falseY": -30241100,
+     "xyUnits": 1.4892314192838538E8,
+     "falseZ": -100000,
+     "zUnits": 10000,
+     "falseM": -100000,
+     "mUnits": 10000
+    },
+    "singleFusedMapCache": false,
+    "initialExtent": {
+     "xmin": -5450906.78189319,
+     "ymin": -3107012.8090117415,
+     "xmax": -5440613.105653644,
+     "ymax": -2964188.0511880293,
+     "spatialReference": {
+      "wkid": 102100,
+      "latestWkid": 3857,
+      "xyTolerance": 0.001,
+      "zTolerance": 0.001,
+      "mTolerance": 0.001,
+      "falseX": -20037700,
+      "falseY": -30241100,
+      "xyUnits": 1.4892314192838538E8,
+      "falseZ": -100000,
+      "zUnits": 10000,
+      "falseM": -100000,
+      "mUnits": 10000
+     }
+    },
+    "fullExtent": {
+     "xmin": -5502958.037463385,
+     "ymin": -3079856.2892910712,
+     "xmax": -5386991.577735997,
+     "ymax": -2993497.8349671145,
+     "spatialReference": {
+      "wkid": 102100,
+      "latestWkid": 3857,
+      "xyTolerance": 0.001,
+      "zTolerance": 0.001,
+      "mTolerance": 0.001,
+      "falseX": -20037700,
+      "falseY": -30241100,
+      "xyUnits": 1.4892314192838538E8,
+      "falseZ": -100000,
+      "zUnits": 10000,
+      "falseM": -100000,
+      "mUnits": 10000
+     }
+    },
+    "datesInUnknownTimezone": false,
+    "minScale": 0,
+    "maxScale": 0,
+    "units": "esriMeters",
+    "supportedImageFormatTypes": "PNG32,PNG24,PNG,JPG,DIB,TIFF,EMF,PS,PDF,GIF,SVG,SVGZ,BMP",
+    "documentInfo": {
+     "Title": "Zoneamentos das Cidades Vizinhas",
+     "Author": "",
+     "Comments": "Zoneamento das cidades vizinhas de Joinville, contendo os limites municipais, perímetro urbano, vias e zoneamentos das cidades de Joinville, Araquari, Campo Alegre, Guaramirim, <font face='Avenir Next W01, Avenir Next W00, Avenir Next, Avenir, Helvetica Neue, sans-serif'><span style='font-size:16px;'>Schroeder e Jaraguá do Sul.<\/span><\/font><div><font face='Avenir Next W01, Avenir Next W00, Avenir Next, Avenir, Helvetica Neue, sans-serif'><span style='font-size:16px;'><br /><\/span><\/font><\/div><div><font face='Avenir Next W01, Avenir Next W00, Avenir Next, Avenir, Helvetica Neue, sans-serif'><span style='font-size:16px;'>O estudo foi realizado em Agosto de 2023 pela <\/span><\/font><span style='font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif;'>Secretaria de Pesquisa e Planejamento Urbano (SEPUR), Unidade de Pesquisa, Documentação e Georreferenciamento (UPD)<\/span><\/div><div><span style='font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif;'><br /><\/span><\/div><div><font face='Avenir Next W01, Avenir Next W00, Avenir Next, Avenir, Helvetica Neue, sans-serif'><span style='font-size:16px;'>Dados:<\/span><\/font><\/div><div><font face='Avenir Next W01, Avenir Next W00, Avenir Next, Avenir, Helvetica Neue, sans-serif'><span style='font-size:16px;'>Joinville - Lei Complementar N 470, de 09 de Janeiro de 2019 - Anexo III - Mapa de Uso e Ocupação do Solo Urbano de Joinville<\/span><\/font><span style='color:rgb(51, 51, 51); font-family:Calibri, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; text-align:justify;'>;<\/span><\/div><div><font face='Avenir Next W01, Avenir Next W00, Avenir Next, Avenir, Helvetica Neue, sans-serif'><span style='font-size:16px;'>Araquari - Lei Complementar N 323/2021;<\/span><\/font><\/div><div><font face='Avenir Next W01, Avenir Next W00, Avenir Next, Avenir, Helvetica Neue, sans-serif'><span style='font-size:16px;'>Campo Alegre: Plano Diretor Participativo, Mapa de Zoneamento de Campo Alegre Anexo - 03 (2018);<\/span><\/font><\/div><div><font face='Avenir Next W01, Avenir Next W00, Avenir Next, Avenir, Helvetica Neue, sans-serif'><span style='font-size:16px;'>Guaramirim: Anexo Lei 4224/2015 - Mapa de Zoneamento de Guaramirim Anexo IX (2015);<\/span><\/font><\/div><div><font face='Avenir Next W01, Avenir Next W00, Avenir Next, Avenir, Helvetica Neue, sans-serif'><span style='font-size:16px;'>São Francisco do Sul: Anexo da Lei 7663/1981 e Suas Alterações - Mapa de Zoneamento 07 (Setembro/2013);<\/span><\/font><\/div><div><font face='Avenir Next W01, Avenir Next W00, Avenir Next, Avenir, Helvetica Neue, sans-serif'><span style='font-size:16px;'>Schroeder - Mapa Plano Diretor - Macrozoneamento Rural e Urbano (Agosto/2016);<\/span><br /><\/font><div><font face='Avenir Next W01, Avenir Next W00, Avenir Next, Avenir, Helvetica Neue, sans-serif'><span style='font-size:16px;'><br /><\/span><\/font><\/div><div><br /><\/div><\/div>",
+     "Subject": "Estudo dos zoneamento das cidades vizinhas de Joinville, contendo os limites municipais, perímetro urbano, vias e zoneamentos das cidades de Joinville, Araquari, Campo Alegre, Guaramirim, Schroeder e Jaraguá do Sul.",
+     "Category": "",
+     "Version": "2.9.0",
+     "AntialiasingMode": "Fast",
+     "TextAntialiasingMode": "Force",
+     "Keywords": "Zoneamento,Joinville,UPD,UPL,Araquari,Campo Alegre,Schroeder,Guaramirim,Jaraguá do Sul,SEPUR"
+    },
+    "capabilities": "Map,Query,Data",
+    "supportedQueryFormats": "JSON, geoJSON, PBF",
+    "exportTilesAllowed": false,
+    "referenceScale": 0.0,
+    "datumTransformations": [
+     {
+      "geoTransforms": [
+       {
+        "wkid": 15894,
+        "latestWkid": 15894,
+        "transformForward": true,
+        "name": "SIRGAS_2000_To_WGS_1984_1"
+       }
+      ]
+     },
+     {
+      "geoTransforms": [
+       {
+        "wkid": 15894,
+        "latestWkid": 15894,
+        "transformForward": false,
+        "name": "SIRGAS_2000_To_WGS_1984_1"
+       }
+      ]
+     },
+     {
+      "geoTransforms": [
+       {
+        "wkid": 15894,
+        "latestWkid": 15894,
+        "transformForward": true,
+        "name": "SIRGAS_2000_To_WGS_1984_1"
+       }
+      ]
+     },
+     {
+      "geoTransforms": [
+       {
+        "wkid": 15894,
+        "latestWkid": 15894,
+        "transformForward": false,
+        "name": "SIRGAS_2000_To_WGS_1984_1"
+       }
+      ]
+     },
+     {
+      "geoTransforms": [
+       {
+        "wkid": 5542,
+        "latestWkid": 5542,
+        "transformForward": false,
+        "name": "SAD_1969_To_WGS_1984_15"
+       }
+      ]
+     },
+     {
+      "geoTransforms": [
+       {
+        "wkid": 5542,
+        "latestWkid": 5542,
+        "transformForward": true,
+        "name": "SAD_1969_To_WGS_1984_15"
+       }
+      ]
+     },
+     {
+      "geoTransforms": [
+       {
+        "wkid": 5528,
+        "latestWkid": 5528,
+        "transformForward": false,
+        "name": "SAD_1969_To_SIRGAS_2000_2"
+       }
+      ]
+     },
+     {
+      "geoTransforms": [
+       {
+        "wkid": 5528,
+        "latestWkid": 5528,
+        "transformForward": true,
+        "name": "SAD_1969_To_SIRGAS_2000_2"
+       }
+      ]
+     }
+    ],
+    "supportsDatumTransformation": true,
+    "floorAwareMapProperties": {
+     "defaultFloorFilterSettings": {"isEnabled": true}
+    },
+    "archivingInfo": {"supportsHistoricMoment": false},
+    "supportsClipping": true,
+    "supportsSpatialFilter": true,
+    "supportsTimeRelation": true,
+    "supportsQueryDataElements": true,
+    "mapUnits": {"uwkid": 9001},
+    "maxRecordCount": 2000,
+    "maxImageHeight": 4096,
+    "maxImageWidth": 4096,
+    "supportedExtensions": "",
+    "serviceItemId": "381655b55aff4652b9daea2fd02b3f77"
+   }
